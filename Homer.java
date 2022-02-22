@@ -13,7 +13,7 @@ class Homer {
 	public static void main(String[] args){
 	Scanner scan = new Scanner(System.in);	
 
-    System.out.println("----------------------------------");
+    	System.out.println("----------------------------------");
 	System.out.println("Keszitette: Sangare Fantha Felisha\nFeladat: 0433\n2022-02-22, SZOFT I N");
 	System.out.println("----------------------------------");
 
@@ -29,7 +29,7 @@ class Homer {
 	kul = number1 - number2;
 	a = number1;
 	System.out.printf("A ket ertek kulonbsege: %.3f", kul);
-    System.out.println("\nA nagyobbik ertek: " + a);
+        System.out.println("\nA nagyobbik ertek: " + a);
     }
 	else {
 	kul = number2 - number1;
