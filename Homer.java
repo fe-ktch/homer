@@ -1,9 +1,9 @@
 /*
-* File: Haromszog.java
+* File: Homer.java
 * Author: Sangare Fantha Felisha
 * Copyright: 2022, Sangare Fantha Felisha
 * Group: Szoft I N
-* Date: 2022-02-16
+* Date: 2022-02-22
 * Github: https://github.com/fe-ktch/
 * Licenc: GNU GPL
 */
@@ -14,7 +14,7 @@ class Homer {
 	Scanner scan = new Scanner(System.in);	
 
     System.out.println("----------------------------------");
-	System.out.println("Keszitette: Sangare Fantha Felisha\nFeladat: Homerseklet szamitas\n2022-02-17, SZOFT I N");
+	System.out.println("Keszitette: Sangare Fantha Felisha\nFeladat: 0433\n2022-02-22, SZOFT I N");
 	System.out.println("----------------------------------");
 
 	double number1, number2, kul, a;
@@ -28,13 +28,13 @@ class Homer {
 	if(number1 > number2){
 	kul = number1 - number2;
 	a = number1;
-	System.out.print("A ket ertek kulonbsege: %.3f", kul);
+	System.out.printf("A ket ertek kulonbsege: %.3f", kul);
     System.out.println("\nA nagyobbik ertek: " + a);
     }
 	else {
 	kul = number2 - number1;
 	a = number2;
-	System.out.print("A ket ertek kulonbsege: %.3f", kul);
+	System.out.printf("A ket ertek kulonbsege: %.3f", kul);
 	System.out.println("\nA nagyobbik ertek: " + a);
 	}
 
