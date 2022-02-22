@@ -4,6 +4,10 @@ class Homer {
 	public static void main(String[] args){
 	Scanner scan = new Scanner(System.in);	
 
+    System.out.println("----------------------------------");
+	System.out.println("Keszitette: Sangare Fantha Felisha\nFeladat: Homerseklet szamitas\n2022-02-17, SZOFT I N");
+	System.out.println("----------------------------------");
+
 	double number1, number2, kul, a;
 	
 	System.out.print("Elso homerseklet erteke: ");
